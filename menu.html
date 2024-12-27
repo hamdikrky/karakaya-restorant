@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menü - KARAKAYA RESTORANT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .menu-header {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./img/menu-header.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 40vh;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+        .menu-item {
+            transition: transform 0.3s;
+            margin-bottom: 30px;
+        }
+        .menu-item:hover {
+            transform: scale(1.03);
+        }
+        .menu-item img {
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .navbar-brand img {
+            transition: transform 0.3s;
+            height: 50px;
+            margin-right: 10px;
+            border-radius: 50%;
+        }
+        .navbar-brand img:hover {
+            transform: scale(1.3);
+        }
+    </style>
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="./img/logo.jpeg" alt="Karakaya Restorant Logo" height="40">
+                KARAKAYA RESTORANT
+            </a>
+        </div>
+    </nav>
+
+ 
+    <section class="menu-header">
+        <div class="container text-center">
+            <h1 class="display-3">Menümüz</h1>
+            <p class="lead">Geleneksel Türk Mutfağının En Seçkin Lezzetleri</p>
+        </div>
+    </section>
+
+   
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Ana Yemekler</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="menu-item">
+                        <img src="./img/kuzu_tandir.jpeg" alt="Kuzu Tandır" class="img-fluid mb-3">
+                        <h4>Kuzu Tandır</h4>
+                        <p class="text-muted">Özel baharatlarla marine edilmiş, uzun süre pişirilmiş enfes kuzu eti</p>
+                        <h5 class="text-primary">₺180</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="menu-item">
+                        <img src="./img/pk.avif" alt="Patlıcan Kebabı" class="img-fluid mb-3">
+                        <h4>Patlıcan Kebabı</h4>
+                        <p class="text-muted">Közlenmiş patlıcan ve kuzu eti ile hazırlanan özel kebap</p>
+                        <h5 class="text-primary">₺150</h5>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="text-center mb-5 mt-5">Çorbalar</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="menu-item">
+                        <img src="./img/mc.jpeg" alt="Mercimek Çorbası" class="img-fluid mb-3">
+                        <h4>Mercimek Çorbası</h4>
+                        <p class="text-muted">Geleneksel tarif ile hazırlanan kırmızı mercimek çorbası</p>
+                        <h5 class="text-primary">₺45</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="menu-item">
+                        <img src="./img/iç.jpeg" alt="İşkembe Çorbası" class="img-fluid mb-3">
+                        <h4>İşkembe Çorbası</h4>
+                        <p class="text-muted">Özel baharatlarla hazırlanan geleneksel işkembe çorbası</p>
+                        <h5 class="text-primary">₺50</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="menu-item">
+                        <img src="./img/egc.jpeg" alt="Ezogelin Çorbası" class="img-fluid mb-3">
+                        <h4>Ezogelin Çorbası</h4>
+                        <p class="text-muted">Bulgur ve mercimek ile hazırlanan geleneksel çorba</p>
+                        <h5 class="text-primary">₺45</h5>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="text-center mb-5 mt-5">Tatlılar</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="menu-item">
+                        <img src="./img/Künefe.jpeg" alt="Künefe" class="img-fluid mb-3">
+                        <h4>Künefe</h4>
+                        <p class="text-muted">Özel peyniri ve kadayıfı ile hazırlanan sıcak künefe</p>
+                        <h5 class="text-primary">₺80</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <img src="./img/logo.jpeg" alt="Karakaya Restorant Logo" height="50" class="mb-3 rounded-circle shadow">
+            <p>&copy; 2024 KARAKAYA RESTORANT. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
